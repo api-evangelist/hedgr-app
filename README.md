@@ -1,4 +1,4 @@
-# hedgr-app
+# HEDGR
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hedgr-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hedgr.app/
+HEDGR is the AI FX agent for SME finance teams, built by Timmy Elenjical, a former JPMorgan and Bank of America emerging‑markets FX trader. Hedgr Ltd, registered in England and Wales, offers a platform that connects to accounting systems like Xero, QuickBooks, Sage, and provides AI‑driven foreign‑currency insights without executing trades. It supports spreadsheet uploads, offers a 30‑day free trial, and provides tiered pricing for UK and South Africa markets.
+
+**Areas:** Finance · AI · FX · SME · Accounting · Platform
+
+## HEDGR on APIs.io
+
+Everything profiled for HEDGR is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hedgr-app/](https://apis.io/providers/hedgr-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [HEDGR Health API](https://apis.io/apis/hedgr-app/hedgr-app-health-api/) — Public liveness and operational status checks.
+- [HEDGR MCP API](https://apis.io/apis/hedgr-app/hedgr-app-mcp-api/) — Model Context Protocol endpoint for agents calling Hedgr's read-only dashboard tools.
+- [HEDGR OAuth discovery API](https://apis.io/apis/hedgr-app/hedgr-app-oauth-discovery-api/) — RFC 8414 / RFC 9728 metadata used to authenticate against the MCP endpoint.
+- [HEDGR Partner API](https://apis.io/apis/hedgr-app/hedgr-app-partner-api-api/) — REST API for broker and FX dealing firms: clients that share their portfolio, deal reporting, signed webhooks. Docs: https://hedgr.app/partner-api.
+- [HEDGR Rates API](https://apis.io/apis/hedgr-app/hedgr-app-rates-api/) — Public FX reference rates.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [HEDGR Agentic Access](https://apis.io/agentic-access/hedgr-app/hedgr-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiCatalog](https://apis.io/schemas/hedgr-app/hedgr-app-api-catalog/)
+- [AuthorizationServerMetadata](https://apis.io/schemas/hedgr-app/hedgr-app-authorization-server-metadata/)
+- [JsonRpcRequest](https://apis.io/schemas/hedgr-app/hedgr-app-json-rpc-request/)
+- [McpDiscovery](https://apis.io/schemas/hedgr-app/hedgr-app-mcp-discovery/)
+- [McpServerCard](https://apis.io/schemas/hedgr-app/hedgr-app-mcp-server-card/)
+- [ProtectedResourceMetadata](https://apis.io/schemas/hedgr-app/hedgr-app-protected-resource-metadata/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hedgr App Context](https://apis.io/jsonld/hedgr-app/hedgr-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HEDGR API Rules](https://apis.io/rules/hedgr-app/hedgr-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [HEDGR Authentication](https://apis.io/security/hedgr-app/hedgr-app-authentication/)
+- [HEDGR Domain Security](https://apis.io/security/hedgr-app/hedgr-app-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [HEDGR Scopes](https://apis.io/scopes/hedgr-app/hedgr-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [HEDGR Plans Pricing](https://apis.io/plans/hedgr-app/hedgr-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hedgr.app/)
+- [Documentation](https://hedgr.app/developer-docs)
+- [API reference](https://hedgr.app/openapi.json)
+- [Pricing](https://hedgr.app/pricing)
+- [Security](https://hedgr.app/security)
+- [Terms of service](https://hedgr.app/terms)
+- [Privacy policy](https://hedgr.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.4** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 61.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 67.9 |
+
+**Agent readiness 59.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hedgr-app/](https://apis.io/providers/hedgr-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HEDGR: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hedgr-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
